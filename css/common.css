@@ -1,0 +1,186 @@
+* {
+  box-sizing: border-box;
+
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a { 
+  text-decoration: none;
+}
+
+body {
+  margin: 16px;
+  
+  background-color: #fafafa;
+
+  color: #2e2f42;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+
+  display: flex;
+  justify-content: center;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.go-back {
+  line-height: 150%;
+  color: #2e2f42;
+}
+
+.go-back:hover,
+.go-back:focus{
+  color: #6c8cff;
+}
+
+/* Task-1 */
+
+.categories {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.item {
+  border-radius: 8px;
+  padding: 16px;
+  width: 392px;
+
+  background: #f6f6fe;
+}
+
+.category-name {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 133%;
+
+  margin-bottom: 16px;
+}
+
+.category-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.category-list-item {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  padding: 8px 16px;
+
+  line-height: 150%;
+}
+
+/* Task-2 */
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  row-gap: 48px;
+
+  max-width: 1128px;
+  justify-content: center;
+}
+
+.gallery-item-li{
+    max-width: 360px;
+    min-height: 300px;     
+}
+
+.gallery-item {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Task-3 */
+
+.form-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.form-title{
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 133%;
+}
+
+.text-input {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+  padding: 8px 16px;
+  outline: none;
+}
+
+.text-input,
+.text-input::placeholder{
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.form-style{
+  border-radius: 8px;
+  padding: 24px;
+  width: 408px;
+  background: #fff;
+}
+
+/* Task-4 */
+
+.label-wrp{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.label{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.btn{
+  border-radius: 8px;
+  padding: 8px 16px;
+  height: 40px;
+  background: #4e75ff;
+  border: none;
+
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+
+  margin-top: 16px;
+}
+
+.btn:hover,
+.btn:focus {
+  background: #6c8cff;
+}
+
+.form-style-five{
+  border-radius: 8px;
+  padding: 100px 88px;
+  background: #fff;
+  width: 345px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
